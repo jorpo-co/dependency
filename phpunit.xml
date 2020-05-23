@@ -22,7 +22,7 @@
     </filter>
 
     <logging>
-        <log type="coverage-html" target="doc/coverage" />
+        <log type="coverage-html" target="docs/coverage" />
     </logging>
 
 </phpunit>
