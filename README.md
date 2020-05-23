@@ -1,2 +1,2 @@
-# Concerto Library
+# Dependency Injection Abstraction
 
