@@ -18,7 +18,9 @@
     },
     "autoload": {
         "psr-4": {
-            "Jorpo\\Dependency\\": ["src"]
+            "Jorpo\\Dependency\\": [
+                "src"
+            ]
         }
     },
     "require-dev": {
@@ -27,7 +29,9 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Jorpo\\Dependency\\": ["tests"]
+            "Jorpo\\Dependency\\": [
+                "tests"
+            ]
         }
     }
 }
