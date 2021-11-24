@@ -2,7 +2,7 @@
     "name": "jorpo/dependency",
     "description": "Dependency Injection abstraction using Auryn",
     "type": "library",
-    "license": "GNU GPLv3",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "John Porter",
