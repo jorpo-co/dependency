@@ -21,5 +21,5 @@ abstract class AbstractInjectorBuilder
         return $injector;
     }
 
-    abstract protected function applyInjectionToInjector(Injector $injector, $injection): void;
+    abstract protected function applyInjectionToInjector(Injector $injector, mixed $injection): void;
 }

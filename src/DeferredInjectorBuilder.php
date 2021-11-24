@@ -11,7 +11,7 @@ class DeferredInjectorBuilder extends AbstractInjectorBuilder
         $this->injections = $injections;
     }
 
-    protected function applyInjectionToInjector(Injector $injector, $injection): void
+    protected function applyInjectionToInjector(Injector $injector, mixed $injection): void
     {
         ($this->makeInjection($injector, $injection))->applyTo($injector);
     }

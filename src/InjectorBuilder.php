@@ -11,7 +11,7 @@ class InjectorBuilder extends AbstractInjectorBuilder
         $this->injections = $injections;
     }
 
-    protected function applyInjectionToInjector(Injector $injector, $injection): void
+    protected function applyInjectionToInjector(Injector $injector, mixed $injection): void
     {
         $injection->applyTo($injector);
     }
