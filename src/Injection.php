@@ -2,8 +2,6 @@
 
 namespace Jorpo\Dependency;
 
-use Auryn\Injector;
-
 interface Injection
 {
     public function applyTo(Injector $injector): void;

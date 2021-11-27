@@ -2,18 +2,12 @@
 
 namespace Jorpo\Dependency;
 
-use Auryn\Injector;
-
 abstract class AbstractInjectorBuilder
 {
     protected array $injections;
 
-    public function build(Injector $injector = null): Injector
+    public function build(Injector $injector): Injector
     {
-        if (null === $injector) {
-            $injector = new Injector;
-        }
-
         foreach ($this->injections as $injection) {
             $this->applyInjectionToInjector($injector, $injection);
         }

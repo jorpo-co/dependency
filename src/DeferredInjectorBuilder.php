@@ -2,8 +2,6 @@
 
 namespace Jorpo\Dependency;
 
-use Auryn\Injector;
-
 class DeferredInjectorBuilder extends AbstractInjectorBuilder
 {
     public function __construct(string ...$injections)

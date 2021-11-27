@@ -2,8 +2,6 @@
 
 namespace Jorpo\Dependency;
 
-use Auryn\Injector;
-
 class InjectionFake implements Injection
 {
     private $called = false;

@@ -4,74 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f6d364c115174c213a57ebee96d9e11f",
-    "packages": [
-        {
-            "name": "rdlowrey/auryn",
-            "version": "v1.4.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/rdlowrey/auryn.git",
-                "reference": "dae57592229d313b59414a2c8334e61e6eb00928"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/rdlowrey/auryn/zipball/dae57592229d313b59414a2c8334e61e6eb00928",
-                "reference": "dae57592229d313b59414a2c8334e61e6eb00928",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "athletic/athletic": "~0.1",
-                "fabpot/php-cs-fixer": "~1.9",
-                "phpunit/phpunit": "^4.8"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Auryn\\": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Daniel Lowrey",
-                    "email": "rdlowrey@gmail.com",
-                    "homepage": "https://github.com/rdlowrey",
-                    "role": "Creator / Main Developer"
-                },
-                {
-                    "name": "Levi Morrison",
-                    "email": "levim@php.net",
-                    "homepage": "http://morrisonlevi.github.com/",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Dan Ackroyd",
-                    "email": "Danack@basereality.com",
-                    "homepage": "http://www.basereality.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Auryn is a dependency injector for bootstrapping object-oriented PHP applications.",
-            "homepage": "https://github.com/rdlowrey/auryn",
-            "keywords": [
-                "dependency injection",
-                "dic",
-                "ioc"
-            ],
-            "support": {
-                "issues": "https://github.com/rdlowrey/auryn/issues",
-                "source": "https://github.com/rdlowrey/auryn/tree/v1.4.4"
-            },
-            "time": "2021-03-04T20:26:52+00:00"
-        }
-    ],
+    "content-hash": "788f94e32e9a6f8e7ab5082532fdf0d1",
+    "packages": [],
     "packages-dev": [
         {
             "name": "amphp/amp",
@@ -2592,7 +2526,6 @@
                     "type": "github"
                 }
             ],
-            "abandoned": true,
             "time": "2020-09-28T06:45:17+00:00"
         },
         {
@@ -3573,16 +3506,16 @@
         },
         {
             "name": "vimeo/psalm",
-            "version": "4.13.0",
+            "version": "4.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "cd489407a0219b93cadd04d5aff9845a942f7e5d"
+                "reference": "5cf660f63b548ccd4a56f62d916ee4d6028e01a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/cd489407a0219b93cadd04d5aff9845a942f7e5d",
-                "reference": "cd489407a0219b93cadd04d5aff9845a942f7e5d",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/5cf660f63b548ccd4a56f62d916ee4d6028e01a3",
+                "reference": "5cf660f63b548ccd4a56f62d916ee4d6028e01a3",
                 "shasum": ""
             },
             "require": {
@@ -3673,9 +3606,9 @@
             ],
             "support": {
                 "issues": "https://github.com/vimeo/psalm/issues",
-                "source": "https://github.com/vimeo/psalm/tree/4.13.0"
+                "source": "https://github.com/vimeo/psalm/tree/4.13.1"
             },
-            "time": "2021-11-19T20:24:40+00:00"
+            "time": "2021-11-23T23:52:49+00:00"
         },
         {
             "name": "webmozart/assert",

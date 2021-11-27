@@ -2,7 +2,6 @@
 
 namespace Jorpo\Dependency;
 
-use Auryn\Injector;
 use PHPUnit\Framework\TestCase;
 
 class InjectorBuilderTest extends TestCase
@@ -12,7 +11,7 @@ class InjectorBuilderTest extends TestCase
         $builder = new InjectorBuilder(
             $injection = new InjectionFake
         );
-        $injector = $builder->build();
+        $injector = $builder->build(new DummyInjector());
 
         $this->assertInstanceOf(Injector::class, $injector);
 

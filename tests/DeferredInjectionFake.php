@@ -2,14 +2,13 @@
 
 namespace Jorpo\Dependency;
 
-use StdClass;
-use Auryn\Injector;
+use stdClass;
 
 class DeferredInjectionFake implements Injection
 {
     public function applyTo(Injector $injector): void
     {
-        $injector->prepare(StdClass::class, function (StdClass $object) {
+        $injector->prepare(StdClass::class, function (stdClass $object) {
             $object->value = 'injected';
         });
     }

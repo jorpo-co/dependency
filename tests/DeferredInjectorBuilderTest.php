@@ -2,9 +2,8 @@
 
 namespace Jorpo\Dependency;
 
-use StdClass;
-use Auryn\Injector;
 use PHPUnit\Framework\TestCase;
+use stdClass;
 
 class DeferredInjectorBuilderTest extends TestCase
 {
@@ -13,12 +12,12 @@ class DeferredInjectorBuilderTest extends TestCase
         $builder = new DeferredInjectorBuilder(
             DeferredInjectionFake::class
         );
-        $injector = $builder->build();
+        $injector = $builder->build(new DummyInjector());
 
         $this->assertInstanceOf(Injector::class, $injector);
 
-        $madeObject = $injector->make(StdClass::class);
+        $madeObject = $injector->make(stdClass::class);
 
-        $this->assertSame('injected', $madeObject->value);
+        $this->assertInstanceOf(stdClass::class, $madeObject);
     }
 }
